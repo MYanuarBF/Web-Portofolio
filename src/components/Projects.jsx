@@ -68,6 +68,9 @@ const Projects = () => {
               </div>
 
               <div className="p-6">
+                <h3 className="text-xl font-bold text-white mb-2">
+                  {project.title}
+                </h3>
                 <p className="text-gray-300 mb-4">{project.description}</p>
 
                 <div className="flex flex-wrap gap-2 mb-4">
@@ -82,15 +85,17 @@ const Projects = () => {
                 </div>
 
                 <div className="flex justify-between mt-4">
-                  <a
-                    href={project.demoLink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-1 text-white hover:text-cyan-500 transition-colors"
-                  >
-                    <HiExternalLink size={20} />
-                    <span>Demo</span>
-                  </a>
+                  {project.demoLink && (
+                    <a
+                      href={project.demoLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-1 text-white hover:text-cyan-500 transition-colors"
+                    >
+                      <HiExternalLink size={20} />
+                      <span>Demo</span>
+                    </a>
+                  )}
                   <a
                     href={project.codeLink}
                     target="_blank"
