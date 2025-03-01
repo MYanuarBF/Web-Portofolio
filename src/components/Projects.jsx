@@ -30,7 +30,7 @@ const Projects = () => {
       image:
         "/images/project/porto.webp",
       tech: ["React", "Tailwind CSS", "Vite"],
-      demoLink: "https://example.com/dehttps://visionary-rugelach-00c5df.netlify.app/mo",
+      demoLink: "https://visionary-rugelach-00c5df.netlify.app/",
       codeLink: "https://github.com/MYanuarBF/Web-Portofolio",
     },
   ];
