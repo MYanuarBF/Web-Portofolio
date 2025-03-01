@@ -1,7 +1,7 @@
 import { TypeAnimation } from 'react-type-animation';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiArrowNarrowRight } from 'react-icons/hi';
-import profilePic from '../assets/foto_profil.jpg';
+import profilePic from '../assets/foto_profil.webp';
 
 function Hero() {
   return (

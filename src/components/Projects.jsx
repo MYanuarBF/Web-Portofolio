@@ -4,25 +4,23 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Website",
+      title: "E-Tiket Website",
       description:
-        "Website e-commerce dengan fitur keranjang belanja, pembayaran, dan manajemen produk. Dibangun dengan React dan Laravel.",
-      image:
-        "https://images.unsplash.com/photo-1557821552-17105176677c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80",
-      tech: ["React", "Laravel", "MySQL", "Tailwind CSS"],
-      demoLink: "https://example.com/demo",
-      codeLink: "https://github.com/username/project",
+        "Website E-Tiket Wisata dengan fitur pemesanan tiket, manajemen harga tiket, login, register, verifikasi email, manajemen role, dan lain-lain. Dibangun menggunakan Laravel dan Filament.",
+      image: "/images/project/tiket1.webp",
+      tech: ["Laravel", "Filament", "MySQL", "Bootstrap"],
+      demoLink: "",
+      codeLink: "https://github.com/MYanuarBF/TA2-PesanTiket",
     },
     {
       id: 2,
-      title: "Task Management App",
+      title: "Aplikasi Pengeditan Gambar",
       description:
-        "Aplikasi manajemen tugas dengan fitur drag-and-drop, kategori, dan pengingat. Menggunakan React dan Firebase.",
-      image:
-        "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80",
-      tech: ["React", "Firebase", "Tailwind CSS"],
-      demoLink: "https://example.com/demo",
-      codeLink: "https://github.com/username/project",
+        "Ini adalah aplikasi pengeditan gambar yang dikembangkan sebagai proyek akhir untuk mata kuliah Pengolahan Citra, dengan fokus pada implementasi fungsi-fungsi library OpenCV.",
+      image: "/images/project/image-editor.webp",
+      tech: ["Python", "OpenCV", "Tkinter"],
+      demoLink: "",
+      codeLink: "https://github.com/MYanuarBF/Python-ImageEditor",
     },
     {
       id: 3,
@@ -30,10 +28,10 @@ const Projects = () => {
       description:
         "Website portofolio personal dengan animasi smooth dan tampilan responsif. Dibuat dengan React dan Tailwind CSS.",
       image:
-        "https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80",
+        "/images/project/porto.webp",
       tech: ["React", "Tailwind CSS", "Vite"],
-      demoLink: "https://example.com/demo",
-      codeLink: "https://github.com/username/project",
+      demoLink: "https://example.com/dehttps://visionary-rugelach-00c5df.netlify.app/mo",
+      codeLink: "https://github.com/MYanuarBF/Web-Portofolio",
     },
   ];
 
